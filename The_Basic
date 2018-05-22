@@ -1,0 +1,32 @@
+E1
+"Abdul" + "Hakim"
+
+E2
+4800 /1000
+4080 % 1000 /100
+4880 % 100 / 10
+4880 % 10
+E3
+Movie_titles = { 'Alien' => 1975,  #use hash
+'Titanic' => 2004, 
+'Prometheus' => 2013, 
+'Space Odyssey' => 2001, 
+'Platoon' => 1981}
+
+puts Movie_titles['Alien']
+puts Movie_titles['Titanic']
+puts Movie_titles['Prometheus']
+puts Movie_titles['Space Odyssey']
+puts Movie_titles['Platoon']
+
+
+E4
+
+
+E5
+
+
+E6.
+
+
+E7.
