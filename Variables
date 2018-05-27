@@ -31,3 +31,18 @@ puts "Holla #{result}, welcome."
   
   puts  "#{result} right?"
 end
+
+
+E4.rb
+puts "What is your first name?"
+first =gets.chomp
+
+puts "What is your last name?"
+last = gets.chomp
+
+puts "Welcome home #{first} #{last}. Good to see you again!"
+
+E5.
+A. 3
+B. Undefined local variable or method because X is created in the inside scope.
+
