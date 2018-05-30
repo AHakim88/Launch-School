@@ -52,3 +52,6 @@ when integer < 0
   integer = gets.chomp.to_i
   
   evaluate(integer)
+  
+  E6. 
+  Add end on line 7
