@@ -24,3 +24,18 @@ E5.
 1. a = "e"
 2. b = "A"
 3. c = nil
+
+E6.
+names[3] = 'jody'
+
+E7.
+
+arr = [1, 2, 3, 4, 5]
+new_arr = []
+
+arr.each do |n|
+  new_arr << n + 2
+end
+
+p arr
+p new_arr
