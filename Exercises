@@ -1,0 +1,41 @@
+E1.
+array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+array.each { |x| puts x }
+
+E2.
+array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+array.each do |x|
+  
+if x > 5
+  puts x
+end
+end
+
+E3.
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+new_array = arr.select do |number|
+number  % 2 !=0
+end
+
+p new_array
+
+E4.
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+arr.push(11)  #or arr << 11
+
+arr.unshift(0)
+
+p arr
+
+E5.
+arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+
+arr.pop
+arr << 3
+
+p arr
