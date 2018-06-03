@@ -39,3 +39,10 @@ arr.pop
 arr << 3
 
 p arr
+
+E6.
+arr.uniq
+
+E7.
+A hash is a dictionary like collection of unique keys and their values. Whereas an array uses integer as its index, a hash allows you to use any object type
+
