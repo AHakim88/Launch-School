@@ -96,3 +96,34 @@ contact_data[0][0]
 
 puts "This is his email : #{contacts["Joe Smith"][:email]} "
 puts "This is her mobile #{contacts["Sally Johnson"][:phone]}"
+
+
+E14
+contact_data = ["joe@email.com", "123 Main st.", "555-123-4567"]
+contacts = {"Joe Smith" => {}}
+fields = [:email, :address, :phone]
+
+contacts.each do |name,hash|
+  fields.each do |field|
+    hash[field] = contact_data.shift
+  end
+end
+p contacts
+
+E15.
+arr = ['snow', 'winter', 'ice', 'slippery', 'salted roads', 'white trees']    
+
+
+arr.delete_if {|word| word.start_with?('s', 'w')}
+puts arr
+
+E16.
+a = ['white snow', 'winter wonderland', 'melting ice',
+     'slippery sidewalk', 'salted roads', 'white trees']
+ 
+  a = a.map { |word| word.split }
+     a = a.flatten
+     p a
+
+E17
+These hashes are the same!
