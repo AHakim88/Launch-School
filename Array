@@ -1,6 +1,4 @@
-E1.
-if arr.include?(number)
-puts "#{number} is in the array"
+
 
 E2.
 returns 1
