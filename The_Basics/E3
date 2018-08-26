@@ -1,0 +1,11 @@
+Movie_titles = { 'Alien' => 1975,  #use hash
+'Titanic' => 2004, 
+'Prometheus' => 2013, 
+'Space Odyssey' => 2001, 
+'Platoon' => 1981}
+
+puts Movie_titles['Alien']
+puts Movie_titles['Titanic']
+puts Movie_titles['Prometheus']
+puts Movie_titles['Space Odyssey']
+puts Movie_titles['Platoon']
