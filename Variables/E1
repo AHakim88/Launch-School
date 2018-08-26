@@ -1,0 +1,6 @@
+E1
+puts " What is your name?"
+
+result = gets.chomp
+
+puts "Holla #{result}, welcome."
