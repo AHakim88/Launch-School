@@ -1,0 +1,9 @@
+def words(longer)
+  if longer.length > 10
+  longer.upcase
+  else
+    longer
+  end
+end
+  puts words("Abdul Hakim")
+  puts  words("Maya") 
