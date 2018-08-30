@@ -1,0 +1,7 @@
+favourite_actors= ["Edward Norton",
+                   "Brad Pitt",
+                  "Keanu Reeves"]
+
+favourite_actors.each_with_index do |actor, index |
+puts "#{index + 1}. #{actor}"
+end
