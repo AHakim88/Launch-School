@@ -1,0 +1,8 @@
+x = ""
+puts "Do you want me to continue?"
+x  = gets.chomp
+
+while x  != "Stop" do
+puts "Do you understand the question?"
+x =gets.chomp
+end
