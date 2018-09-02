@@ -1,0 +1,9 @@
+def vader(number)
+  if number  <= 0
+    puts number
+  else 
+     puts number
+      vader(number -1)
+  end
+end
+vader(20)
