@@ -1,7 +1,7 @@
-arr = [1,2,3,4, 5]
-new_arr = []
-arr.each do |y|
- new_arr.push y +2
+arr = [1, 2, 3, 4, 5]
+
+new_arr = arr.map do |n|
+  n + 2
 end
 
 p arr
