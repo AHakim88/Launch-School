@@ -1,0 +1,8 @@
+migration = {country: "Malaysia", currency: "Ringgit", cost: "affordable"}
+
+if migration.has_value?("Malaysia")
+puts "Malaysia boleh!"
+
+else
+  puts "Next one"
+end
