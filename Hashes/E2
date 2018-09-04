@@ -1,0 +1,12 @@
+cat = {name: "Chomel" }
+hobbies = { hobby: "Sleeping" }
+
+puts cat.merge(hobbies)
+ 
+ puts cat
+ puts hobbies
+ 
+puts cat.merge!(hobbies)
+ 
+ puts cat
+ puts hobbies
