@@ -1,0 +1,8 @@
+E1.
+def hasword(word)
+  if word =~ /lab/i
+  puts word
+else 
+  puts "No mas!"
+end
+end
