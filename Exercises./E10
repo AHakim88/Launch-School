@@ -1,6 +1,6 @@
 E10.
  # hash values as arrays
-hash = {names: ['bob', 'joe', 'susan']}
+hash = {hobbies: ['travel', 'movies', 'reading']}
 
 # array of hashes
-arr = [{name: 'bob'}, {name: 'joe'}, {name: 'susan'}] 
+arr = [{hobbies: 'travel'}, {hobbies: 'movies'}, {hobbies: 'reading'}] 
