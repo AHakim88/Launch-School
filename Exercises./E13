@@ -1,0 +1,2 @@
+puts "This is his email: #{contacts["Joe Smith"][:email]} "
+puts "This is her mobile: #{contacts["Sally Johnson"][:phone]}"
