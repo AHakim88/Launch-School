@@ -1,0 +1,1 @@
+Unless break is used, nil will be the answer. The value passed will be used in the case of break.
