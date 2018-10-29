@@ -1,5 +1,10 @@
 in `fetch': index 7 outside of array bounds: -5...5 (IndexError)
+#Indexerror exception as the referenced index lies outside of the error bounds.
 
 beats me
+#By providing a default value, second form prevent an error from occurring even though the referenced index lies outside of the error bounds. 
+Thus, returning the value of the default argument.
 
 49
+# By providing a block that returns an appropriate value, third form  returns the value.
+
