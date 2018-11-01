@@ -1,0 +1,4 @@
+7
+
+# As the method definition inside the inner scope are self contained to the local variable, 
+the outer scope which can also refers to top level a is not visible inside the method thus the answer is 7.
