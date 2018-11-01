@@ -1,1 +1,2 @@
 7
+#Variables  initialized within an inner scope  is not available in an outer scope.
