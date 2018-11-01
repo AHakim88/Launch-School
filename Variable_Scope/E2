@@ -1,1 +1,2 @@
 7
+# As a is a local variable inside the method definition which are not visible outside the method thus top level a remain 7.
