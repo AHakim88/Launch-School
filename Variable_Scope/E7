@@ -1,0 +1,2 @@
+3
+# The last element of the array is displayed because a is pointed to the array element after the block method invocation
