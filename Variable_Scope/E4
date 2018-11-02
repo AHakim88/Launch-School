@@ -1,0 +1,4 @@
+Xy-zy
+
+#As string is mutable, a has been mutated according to the string referenced by b. When priting a, the value of the string is
+updated.
