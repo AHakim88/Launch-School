@@ -1,0 +1,2 @@
+An error message will be issued. "a" at the outside scope is not visible inside the method invocation of each. This is due to invocation of 
+each method is in the inside scope and the local variables are self contained in the methods.
