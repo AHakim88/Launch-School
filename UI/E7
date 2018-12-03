@@ -1,0 +1,14 @@
+USERNAME = 'Hakim'
+PASSWORD = 'xsedq'
+
+loop do
+  puts ">> Please enter user name:"
+  user_name =gets.chomp
+  
+  puts ">> Please enter a password:"
+  output =gets.chomp
+  
+   break if user_name == USERNAME && output == PASSWORD
+    puts "Authorization failed!"
+end
+puts "Welcome!"
