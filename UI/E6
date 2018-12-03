@@ -1,0 +1,9 @@
+PASSWORD = 'HafizuD'
+
+loop do
+puts ">> Please enter a password:"
+  output =gets.chomp
+  break if output == PASSWORD
+  puts ">> Invalid Password!"
+end
+  puts "Welcome!"
