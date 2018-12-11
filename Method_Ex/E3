@@ -1,0 +1,10 @@
+def greeting
+  "Hello"
+end
+
+def earth
+  "World"
+end
+
+puts "#{greeting} #{earth}"
+  
