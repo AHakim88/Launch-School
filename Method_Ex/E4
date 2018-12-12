@@ -7,7 +7,7 @@ def world
 end
 
 def greet
-   'Hello' + ' ' + 'World'
+   hello' + ' ' + world
  end
  
  puts greet
