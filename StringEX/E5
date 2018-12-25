@@ -1,2 +1,6 @@
-state = 'tExAs'
-puts state.capitalize
+first_name = 'John'
+last_name = 'Doe'
+
+name = first_name + ' ' + last_name
+
+puts name
