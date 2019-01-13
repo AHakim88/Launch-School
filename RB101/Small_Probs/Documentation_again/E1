@@ -1,0 +1,4 @@
+File::path is a class method, while File#path is an instance method.
+
+File::path is called the class method as we calling in on the file class. 
+File#path being called on an object of the file class thus its an instance method .
