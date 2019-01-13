@@ -1,0 +1,11 @@
+# puts Date.new
+-4712-01-01(Julian date to Julian Day Number)
+
+# puts Date.new(2016)
+2016-01-01 (Month and Mday not provided so will default to 1)
+
+# puts Date.new(2016, 5)
+2016-05-01(Mday not provided so will default to 1)
+
+# puts Date.new(2016, 5, 13)
+2016-05-13
