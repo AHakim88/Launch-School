@@ -1,2 +1,3 @@
-From the pattern of the regexes they are both equal. However, a slight changes to either pattern they will no longer 
-be equivalent.
+The two regexes are not equivalent. The first regex only matches uppercase and lowercase abc. While the second 
+regex matches any string consisting of the letters a, b, c in sequence, regardless of case.
+The string Abcd would match the second pattern(first three letters), but not the first regex.
