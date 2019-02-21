@@ -1,1 +1,3 @@
-/[A-WYZa-wyz]/
+def hex_digit?(char)
+  char.match(/[A-WYZa-wyz]/)
+end  
